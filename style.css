@@ -75,3 +75,21 @@ body {
 .img-flotante-4 {
     transform: translateY(-10px) translateX(10px);
 }
+
+/* ================= SECCIÓN SOLUCIONES ================= */
+
+/* Estilo base de la tarjeta de servicio */
+.solucion-card {
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Borde blanco muuuuy sutil */
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+/* El efecto "Glow" al pasar el mouse (Hover) */
+.solucion-card:hover {
+    background-color: rgba(255, 255, 255, 0.02); /* Se ilumina apenitas el fondo */
+    border-color: rgba(0, 212, 163, 0.3); /* El borde se pinta con tu color verde Cohete */
+    transform: translateY(-5px); /* Se levanta un poco */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Crea una sombra oscura abajo */
+}
