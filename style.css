@@ -108,3 +108,58 @@ body {
     box-shadow: 0 15px 30px rgba(0, 212, 163, 0.15); /* Sombra verde */
     z-index: 2; /* Para que la foto pase por delante de las otras al hacer zoom */
 }
+
+/* ================= SECCIÓN BENTO BOX (Diferenciadores) ================= */
+
+/* Transición suave para todas las tarjetas */
+.bento-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Borde de cristal */
+    background-color: #0a0a0a; /* Fondo muy oscuro por si falla la imagen */
+}
+
+/* Efecto al pasar el mouse por CUALQUIER tarjeta del Bento Box */
+.bento-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+/* Clase especial para las tarjetas que son completamente verdes */
+.bg-cohete-solid {
+    background-color: var(--color-cohete-verde) !important;
+    border: none;
+}
+.bg-cohete-solid:hover {
+    box-shadow: 0 15px 40px rgba(0, 212, 163, 0.3); /* Sombra verde */
+}
+
+/* La tarjeta central alta con degradado futurista */
+.bento-central {
+    background: linear-gradient(145deg, #111111 0%, #050505 100%);
+    border: 1px solid rgba(0, 212, 163, 0.2); /* Borde verde brillante sutil */
+}
+.bento-central::before {
+    /* Un brillo verde falso detrás del contenido de la tarjeta central */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background: var(--color-cohete-verde);
+    filter: blur(100px);
+    opacity: 0.15;
+    z-index: 0;
+}
+
+/* Botón especial transparente de la tarjeta central */
+.bento-btn {
+    transition: all 0.3s ease;
+}
+.bento-btn:hover {
+    background-color: var(--color-cohete-verde);
+    border-color: var(--color-cohete-verde);
+    color: #000 !important;
+}
