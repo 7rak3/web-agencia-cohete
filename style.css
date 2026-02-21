@@ -93,3 +93,18 @@ body {
     transform: translateY(-5px); /* Se levanta un poco */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Crea una sombra oscura abajo */
 }
+
+/* ================= SECCIÓN GALERÍA ================= */
+
+/* Hacemos que las fotos tengan el mismo efecto interactivo premium */
+.sombra-galeria {
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Borde sutil */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.sombra-galeria:hover {
+    transform: translateY(-5px) scale(1.02); /* Se levanta y hace un mini zoom */
+    box-shadow: 0 15px 30px rgba(0, 212, 163, 0.15); /* Sombra verde */
+    z-index: 2; /* Para que la foto pase por delante de las otras al hacer zoom */
+}
