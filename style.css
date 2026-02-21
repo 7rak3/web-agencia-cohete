@@ -1,0 +1,37 @@
+/* ================= CONFIGURACIÓN GLOBAL ================= */
+
+/* Definimos "variables" de CSS. Aquí guardamos el color verde exacto del diseño */
+:root {
+    --color-cohete-verde: #00d4a3; /* He sacado este color aproximado de la imagen */
+}
+
+/* Le decimos a toda la página que use la fuente Poppins */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================= CLASES PERSONALIZADAS ================= */
+
+/* Crearemos nuestras propias clases para usar ese verde */
+
+/* Para textos verdes (como el título principal) */
+.text-cohete {
+    color: var(--color-cohete-verde) !important;
+}
+
+/* Para botones verdes (como el del menú) */
+.btn-cohete {
+    background-color: var(--color-cohete-verde);
+    color: #000; /* Texto negro para contraste */
+    font-weight: 600;
+    border: none;
+    padding: 10px 25px; /* Un poco más gorditos */
+    border-radius: 50px; /* Bordes completamente redondos como en la imagen */
+    transition: all 0.3s ease;
+}
+
+.btn-cohete:hover {
+    background-color: #00b086; /* Un poquito más oscuro al pasar el mouse */
+    color: #000;
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
