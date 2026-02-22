@@ -11,20 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    
     <link rel="stylesheet" href="style.css">
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-black text-white">
 
-<header data-aos="fade-down" data-aos-duration="1000">
+    <header data-aos="fade-down" data-aos-duration="1000">
         <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top py-3 border-bottom border-dark">
             <div class="container">
-                
                 <a class="navbar-brand fw-bold fs-4" href="index.html">
                     <i class="bi bi-rocket-takeoff-fill text-cohete me-2"></i>Agencia Cohete
                 </a>
@@ -35,19 +32,15 @@
 
                 <div class="collapse navbar-collapse" id="menuNavegacion">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium">
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Inicio</a>
                         </li>
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="servicios.html">Servicios</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#planes">Planes</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#contacto">Contacto</a>
                         </li>
@@ -59,11 +52,9 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </nav>
     </header>
-
 
     <main>
         <section id="inicio" class="hero-section text-center position-relative overflow-hidden pt-5 pb-5">
@@ -73,7 +64,6 @@
                     <div class="col-lg-3 d-none d-lg-block position-relative" data-aos="fade-right" data-aos-delay="200">
                         <video autoplay loop muted playsinline class="img-fluid rounded-4 mb-5 hero-img img-flotante-1 object-fit-cover" style="height: 250px; width: 100%;">
                             <source src="https://cdn.pixabay.com/video/2020/05/25/40134-424802758_tiny.mp4" type="video/mp4">
-                            Tu navegador no soporta videos.
                         </video>
                         <video autoplay loop muted playsinline class="img-fluid rounded-4 hero-img img-flotante-2 object-fit-cover" style="height: 250px; width: 100%;">
                             <source src="https://cdn.pixabay.com/video/2019/01/16/20743-312151020_tiny.mp4" type="video/mp4">
@@ -81,7 +71,19 @@
                     </div>
 
                     <div class="col-lg-6 col-md-10 mx-auto z-1 px-4">
+                        <h1 class="display-4 fw-bold mb-4 text-white lh-base" data-aos="fade-up">
+                            La Agencia de Marketing Digital <br>
+                            <span class="text-cohete titulo-brillo">que genera crecimiento</span>
+                        </h1>
+                        <p class="lead text-secondary mb-5 mx-auto" style="max-width: 500px; font-size: 1.1rem;" data-aos="fade-up" data-aos-delay="100">
+                            Desde potenciar tu presencia online hasta construir un embudo de ventas efectivo. Creamos soluciones estratégicas para impulsar tu éxito empresarial.
+                        </p>
+                        <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                            <a href="#contacto" class="btn btn-cohete btn-lg px-5 py-3 fs-5 shadow-lg">
+                                Ver casos de éxito
+                            </a>
                         </div>
+                    </div>
 
                     <div class="col-lg-3 d-none d-lg-block position-relative" data-aos="fade-left" data-aos-delay="200">
                         <video autoplay loop muted playsinline class="img-fluid rounded-4 mb-5 hero-img img-flotante-3 object-fit-cover" style="height: 250px; width: 100%;">
@@ -111,130 +113,107 @@
 
         <section id="servicios" class="py-5 mt-5">
             <div class="container pt-5">
-                
                 <div class="row justify-content-center text-center mb-5">
                     <div class="col-lg-6 col-md-8">
-                        <div class="d-inline-flex align-items-center justify-content-center rounded-circle border border-secondary border-opacity-50 mb-4" style="width: 70px; height: 70px;">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-circle border border-secondary border-opacity-50 mb-4" style="width: 70px; height: 70px;" data-aos="zoom-in">
                             <i class="bi bi-bullseye fs-1 text-cohete"></i>
                         </div>
-                        
-                        <h2 class="display-5 fw-bold mb-3">
+                        <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">
                             Conoce Nuestras <br>
                             <span class="text-white">Soluciones</span>
                         </h2>
-                        
-                        <p class="text-secondary">
+                        <p class="text-secondary" data-aos="fade-up" data-aos-delay="100">
                             Desde potenciar tu presencia en Google hasta construir una marca distintiva, creamos soluciones estratégicas para impulsar tu éxito empresarial.
                         </p>
                     </div>
                 </div>
 
                 <div class="row g-4 g-lg-5 justify-content-center mt-2">
-
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="solucion-card p-4 rounded-4 h-100">
                             <div class="d-flex align-items-start mb-3">
                                 <i class="bi bi-google fs-4 text-cohete me-3 mt-1"></i>
                                 <h4 class="fw-semibold text-white mb-0 fs-5 mt-1">Google Ads</h4>
                             </div>
-                            <p class="text-secondary small lh-lg mb-0">
-                                Maximiza tu rendimiento y lleva tu inversión publicitaria al siguiente nivel con campañas hiper-segmentadas y enfocadas en conversiones reales.
-                            </p>
+                            <p class="text-secondary small lh-lg mb-0">Maximiza tu rendimiento y lleva tu inversión publicitaria al siguiente nivel con campañas hiper-segmentadas y enfocadas en conversiones reales.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="solucion-card p-4 rounded-4 h-100">
                             <div class="d-flex align-items-start mb-3">
                                 <i class="bi bi-phone fs-4 text-cohete me-3 mt-1"></i>
                                 <h4 class="fw-semibold text-white mb-0 fs-5 mt-1">Redes Sociales</h4>
                             </div>
-                            <p class="text-secondary small lh-lg mb-0">
-                                Construimos comunidades activas y fidelizamos a tu audiencia con estrategias de contenido magnéticas y gestión profesional de perfiles.
-                            </p>
+                            <p class="text-secondary small lh-lg mb-0">Construimos comunidades activas y fidelizamos a tu audiencia con estrategias de contenido magnéticas y gestión profesional de perfiles.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="solucion-card p-4 rounded-4 h-100">
                             <div class="d-flex align-items-start mb-3">
                                 <i class="bi bi-search fs-4 text-cohete me-3 mt-1"></i>
                                 <h4 class="fw-semibold text-white mb-0 fs-5 mt-1">Posicionamiento SEO</h4>
                             </div>
-                            <p class="text-secondary small lh-lg mb-0">
-                                Aparece en los primeros resultados de búsqueda. Optimizamos tu sitio web para atraer tráfico orgánico de calidad y superar a tu competencia.
-                            </p>
+                            <p class="text-secondary small lh-lg mb-0">Aparece en los primeros resultados de búsqueda. Optimizamos tu sitio web para atraer tráfico orgánico de calidad y superar a tu competencia.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="solucion-card p-4 rounded-4 h-100">
                             <div class="d-flex align-items-start mb-3">
                                 <i class="bi bi-laptop fs-4 text-cohete me-3 mt-1"></i>
                                 <h4 class="fw-semibold text-white mb-0 fs-5 mt-1">Diseño Web</h4>
                             </div>
-                            <p class="text-secondary small lh-lg mb-0">
-                                Desarrollamos sitios web ultra-rápidos, persuasivos y diseñados específicamente para convertir visitantes en clientes recurrentes.
-                            </p>
+                            <p class="text-secondary small lh-lg mb-0">Desarrollamos sitios web ultra-rápidos, persuasivos y diseñados específicamente para convertir visitantes en clientes recurrentes.</p>
                         </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="solucion-card p-4 rounded-4 h-100">
                             <div class="d-flex align-items-start mb-3">
                                 <i class="bi bi-camera-video fs-4 text-cohete me-3 mt-1"></i>
                                 <h4 class="fw-semibold text-white mb-0 fs-5 mt-1">Contenido Audiovisual</h4>
                             </div>
-                            <p class="text-secondary small lh-lg mb-0">
-                                Videos y fotografías de alta calidad que capturan la esencia de tu marca y generan impacto visual en todas tus plataformas digitales.
-                            </p>
+                            <p class="text-secondary small lh-lg mb-0">Videos y fotografías de alta calidad que capturan la esencia de tu marca y generan impacto visual en todas tus plataformas digitales.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <section id="equipo" class="py-5 mt-5">
             <div class="container text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">
+                <h2 class="display-5 fw-bold mb-3" data-aos="fade-up">
                     El futuro de tu empresa <br>
                     <span class="text-cohete">en las mejores manos</span>
                 </h2>
-                <p class="text-secondary mx-auto" style="max-width: 600px;">
+                <p class="text-secondary mx-auto" style="max-width: 600px;" data-aos="fade-up" data-aos-delay="100">
                     Conoce al equipo apasionado que está detrás de las estrategias que harán despegar la facturación de tu negocio.
                 </p>
             </div>
 
             <div class="container-fluid px-4 px-lg-5">
                 <div class="row g-3 justify-content-center align-items-stretch">
-                    
-                    <div class="col-6 col-md-3">
+                    <div class="col-6 col-md-3" data-aos="fade-right">
                         <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=700&fit=crop" class="img-fluid rounded-4 h-100 object-fit-cover sombra-galeria" alt="Equipo trabajando">
                     </div>
-                    
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-md-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="d-flex flex-column gap-3 h-100">
                              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=335&fit=crop" class="img-fluid rounded-4 h-50 object-fit-cover sombra-galeria" alt="Oficina">
                              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=335&fit=crop" class="img-fluid rounded-4 h-50 object-fit-cover sombra-galeria" alt="Análisis de datos">
                         </div>
                     </div>
-                    
-                    <div class="col-12 col-md-5 mt-3 mt-md-0">
+                    <div class="col-12 col-md-5 mt-3 mt-md-0" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=700&fit=crop" class="img-fluid rounded-4 h-100 object-fit-cover sombra-galeria" alt="Reunión de estrategia">
                     </div>
-
                 </div>
             </div>
+        </section>
+
         <section id="diferenciadores" class="py-5 mt-5">
             <div class="container pt-4">
-                
                 <h2 class="display-5 fw-bold text-center mb-5" data-aos="fade-up">
                     Lo que <span class="text-white">nos diferencia</span>
                 </h2>
 
                 <div class="row g-4">
-
                     <div class="col-lg-4 d-flex flex-column gap-4">
                         <div class="bento-card rounded-4 p-4 position-relative overflow-hidden" style="min-height: 250px;" data-aos="fade-up">
                             <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50" alt="Crecimiento" style="z-index: 0;">
@@ -243,7 +222,6 @@
                                 <p class="text-light small mb-0">Guiamos el constante desarrollo y crecimiento de las empresas que confían en nosotros.</p>
                             </div>
                         </div>
-
                         <div class="bento-card rounded-4 p-4 flex-grow-1 bg-cohete-solid d-flex flex-column justify-content-between" data-aos="fade-up" data-aos-delay="100">
                             <div>
                                 <h3 class="fw-bold fs-4 mb-2">ROI medible</h3>
@@ -270,7 +248,6 @@
                                 <i class="bi bi-graph-up-arrow display-1 opacity-75"></i>
                             </div>
                         </div>
-
                         <div class="bento-card rounded-4 p-4 position-relative overflow-hidden" style="min-height: 250px;" data-aos="fade-up" data-aos-delay="400">
                             <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50" alt="Fidelidad" style="z-index: 0;">
                             <div class="position-relative z-1 d-flex flex-column justify-content-end h-100">
@@ -279,7 +256,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -287,8 +263,7 @@
         <section id="ubicacion" class="py-5 mt-5">
             <div class="container pt-5">
                 <div class="row align-items-center g-5">
-                    
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" data-aos="fade-right">
                         <h2 class="display-5 fw-bold mb-4">
                             Ubicados en el distrito <br>
                             de innovación <span class="text-cohete">de Viña del Mar</span>
@@ -296,7 +271,6 @@
                         <p class="text-secondary mb-5">
                             Nuestro equipo de especialistas en marketing opera desde la Región de Valparaíso, conectando con clientes de todo Chile y el mundo para impulsar sus ventas.
                         </p>
-                        
                         <div class="d-flex align-items-center gap-3">
                             <div class="bg-dark rounded-circle d-flex justify-content-center align-items-center" style="width: 50px; height: 50px;">
                                 <i class="bi bi-geo-alt-fill text-cohete fs-4"></i>
@@ -308,59 +282,45 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7">
+                    <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
                         <div class="rounded-4 overflow-hidden border border-secondary border-opacity-25 shadow-lg" style="height: 400px;">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106981.18956976269!2d-71.61405204443323!3d-33.01358359419139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de7ebb1a3299%3A0xb36ed1d92a95c478!2sVi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1ses-419!2scl!4v1708540000000!5m2!1ses-419!2scl" width="100%" height="100%" style="border:0; filter: grayscale(100%) invert(90%) contrast(85%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <section class="py-5 mt-5 position-relative text-center" style="margin-bottom: 80px;">
+        <section class="py-5 mt-5 position-relative text-center" style="margin-bottom: 80px;" data-aos="zoom-in">
             <div class="position-absolute top-0 start-50 translate-middle-x w-75" style="height: 1px; background: radial-gradient(circle, rgba(0,212,163,0.5) 0%, rgba(0,0,0,0) 70%); box-shadow: 0 0 20px 5px rgba(0,212,163,0.1);"></div>
-            
             <div class="container pt-5 pb-4">
                 <h2 class="display-6 fw-bold mb-2">
                     Rentabiliza tu presencia <span class="text-cohete">digital</span>
                 </h2>
                 <h3 class="h2 fw-bold text-white mb-4">Impulsemos juntos este 2026</h3>
                 <p class="text-secondary small mb-4">Hablemos de tus resultados</p>
-                
                 <a href="#contacto" class="btn btn-cohete px-4 py-2 rounded-pill fw-semibold fs-5">
                     Agendar Google Meet <i class="bi bi-arrow-right-short align-middle"></i>
                 </a>
             </div>
-        </section>    
+        </section>
         
-        </main>
-
+    </main>
 
     <footer class="pt-5 pb-4 mt-5 border-top border-secondary border-opacity-25 bg-black text-white" style="font-size: 0.9rem;">
         <div class="container pt-4">
             <div class="row gy-5">
-                
                 <div class="col-lg-4 pe-lg-5">
                     <a class="text-white text-decoration-none fw-bold fs-4 mb-4 d-block" href="#inicio">
                         <i class="bi bi-rocket-takeoff-fill text-cohete me-2"></i>Agencia Cohete
                     </a>
-                    <p class="text-secondary mb-4">
-                        Aceleramos el crecimiento de tu negocio con estrategias de marketing digital basadas en datos y resultados reales.
-                    </p>
+                    <p class="text-secondary mb-4">Aceleramos el crecimiento de tu negocio con estrategias de marketing digital basadas en datos y resultados reales.</p>
                     <div class="d-flex gap-2">
-                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary">
-                            <i class="bi bi-tiktok"></i>
-                        </a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon d-flex align-items-center justify-content-center rounded-circle border border-secondary text-secondary"><i class="bi bi-tiktok"></i></a>
                     </div>
                 </div>
-
                 <div class="col-6 col-lg-2 offset-lg-1">
                     <h6 class="fw-bold text-white mb-4 text-uppercase" style="letter-spacing: 1px; font-size: 0.8rem;">Compañía</h6>
                     <ul class="list-unstyled d-flex flex-column gap-3">
@@ -370,7 +330,6 @@
                         <li><a href="#planes" class="footer-link text-secondary text-decoration-none">Planes</a></li>
                     </ul>
                 </div>
-
                 <div class="col-6 col-lg-2">
                     <h6 class="fw-bold text-white mb-4 text-uppercase" style="letter-spacing: 1px; font-size: 0.8rem;">Servicios</h6>
                     <ul class="list-unstyled d-flex flex-column gap-3">
@@ -380,20 +339,15 @@
                         <li><a href="#" class="footer-link text-secondary text-decoration-none">Diseño Web UX</a></li>
                     </ul>
                 </div>
-
                 <div class="col-lg-3">
                     <h6 class="fw-bold text-white mb-4 text-uppercase" style="letter-spacing: 1px; font-size: 0.8rem;">Contacto</h6>
                     <ul class="list-unstyled d-flex flex-column gap-3 mb-4">
                         <li class="text-secondary"><i class="bi bi-envelope me-2 text-cohete"></i> hablemos@agenciacohete.cl</li>
                         <li class="text-secondary"><i class="bi bi-whatsapp me-2 text-cohete"></i> +56 9 1234 5678</li>
                     </ul>
-                    <a href="#contacto" class="btn btn-outline-light rounded-pill btn-sm px-4 py-2 fw-medium footer-btn">
-                        Contactar ahora <i class="bi bi-arrow-right-short"></i>
-                    </a>
+                    <a href="#contacto" class="btn btn-outline-light rounded-pill btn-sm px-4 py-2 fw-medium footer-btn">Contactar ahora <i class="bi bi-arrow-right-short"></i></a>
                 </div>
-
             </div>
-
             <div class="row border-top border-secondary border-opacity-25 mt-5 pt-4">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     <p class="text-secondary small mb-0">© 2026 Agencia Cohete. Todos los derechos reservados.</p>
@@ -406,17 +360,13 @@
         </div>
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/.../bootstrap.bundle.min.js" ...></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      // Esto inicia las animaciones con una configuración suavecita
       AOS.init({
-        duration: 800, // Duración de la animación en milisegundos
-        once: true, // Si es 'true', solo se animan una vez al bajar. Si es 'false', se animan cada vez que pasas.
-        offset: 100 // Empieza la animación un poquito antes de que el elemento entre del todo
+        duration: 800,
+        once: true,
+        offset: 100
       });
     </script>
 </body>
