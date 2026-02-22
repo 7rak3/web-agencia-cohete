@@ -174,3 +174,29 @@ body {
     border-color: var(--color-cohete-verde);
     color: #000 !important;
 }
+
+/* ================= HUB DE SERVICIOS (servicios.html) ================= */
+
+/* Estilo de la tarjeta oscura basada en tu foto */
+.card-servicio {
+    background-color: transparent; /* Fondo transparente o muy oscuro */
+    border: 1px solid rgba(255, 255, 255, 0.08); /* Borde sutil casi invisible */
+    transition: all 0.4s ease;
+}
+
+/* Efecto al pasar el mouse */
+.card-servicio:hover {
+    background-color: rgba(255, 255, 255, 0.03); /* Se ilumina apenitas el fondo */
+    border-color: rgba(0, 212, 163, 0.4); /* El borde se pinta verde Cohete */
+    transform: translateY(-8px); /* Se eleva */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+}
+
+/* Para que la flechita se mueva a la derecha al hacer hover */
+.card-servicio:hover .bi-arrow-right {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+.card-servicio .bi-arrow-right {
+    transition: transform 0.3s ease;
+}
