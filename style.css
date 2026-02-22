@@ -200,3 +200,20 @@ body {
 .card-servicio .bi-arrow-right {
     transition: transform 0.3s ease;
 }
+
+/* ================= ACORDEÓN FAQ (ads.html) ================= */
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgba(0, 212, 163, 0.1); /* Fondo verde suavecito al abrir */
+    color: var(--color-cohete-verde);
+    box-shadow: none;
+}
+.accordion-button::after {
+    filter: invert(1); /* Pone la flechita blanca */
+}
+.accordion-button:not(.collapsed)::after {
+    filter: invert(65%) sepia(51%) saturate(5203%) hue-rotate(133deg) brightness(98%) contrast(104%); /* Pinta la flecha de verde al abrir */
+}
