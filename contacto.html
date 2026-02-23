@@ -108,44 +108,48 @@
                         <div class="bg-dark bg-opacity-25 p-4 p-md-5 rounded-4 border border-secondary border-opacity-25 shadow-lg">
                             <h4 class="fw-bold mb-4">Envíanos un mensaje</h4>
                             
-                            <form action="#" method="POST" class="row g-3">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="row g-3">
                                 
+                                <input type="hidden" name="access_key" value="51077720-b6d3-4f75-ac6d-8e36c7481953">
+
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
                                 <div class="col-md-6">
                                     <label for="nombre" class="form-label text-secondary small fw-semibold">Nombre Completo</label>
-                                    <input type="text" class="form-control form-cohete bg-transparent text-white" id="nombre" placeholder="Ej. Juan Pérez" required>
+                                    <input type="text" name="Nombre" class="form-control form-cohete bg-transparent text-white" id="nombre" placeholder="Ej. Juan Pérez" required>
                                 </div>
                                 
                                 <div class="col-md-6">
                                     <label for="empresa" class="form-label text-secondary small fw-semibold">Empresa</label>
-                                    <input type="text" class="form-control form-cohete bg-transparent text-white" id="empresa" placeholder="Nombre de tu marca">
+                                    <input type="text" name="Empresa" class="form-control form-cohete bg-transparent text-white" id="empresa" placeholder="Nombre de tu marca">
                                 </div>
 
                                 <div class="col-md-6">
                                     <label for="email" class="form-label text-secondary small fw-semibold">Correo Electrónico</label>
-                                    <input type="email" class="form-control form-cohete bg-transparent text-white" id="email" placeholder="tucorreo@empresa.com" required>
+                                    <input type="email" name="Email" class="form-control form-cohete bg-transparent text-white" id="email" placeholder="tucorreo@empresa.com" required>
                                 </div>
 
                                 <div class="col-md-6">
                                     <label for="telefono" class="form-label text-secondary small fw-semibold">Teléfono / WhatsApp</label>
-                                    <input type="tel" class="form-control form-cohete bg-transparent text-white" id="telefono" placeholder="+56 9 ...">
+                                    <input type="tel" name="Telefono" class="form-control form-cohete bg-transparent text-white" id="telefono" placeholder="+56 9 ...">
                                 </div>
 
                                 <div class="col-12">
                                     <label for="servicio" class="form-label text-secondary small fw-semibold">Servicio de interés</label>
-                                    <select class="form-select form-cohete bg-transparent text-white" id="servicio" required>
+                                    <select name="Servicio" class="form-select form-cohete bg-transparent text-white" id="servicio" required>
                                         <option value="" class="text-dark" selected disabled>Selecciona una opción...</option>
-                                        <option value="ads" class="text-dark">Google Ads & Meta Ads</option>
-                                        <option value="seo" class="text-dark">Posicionamiento SEO</option>
-                                        <option value="web" class="text-dark">Diseño Web UX/UI</option>
-                                        <option value="redes" class="text-dark">Gestión de Redes Sociales</option>
-                                        <option value="audiovisual" class="text-dark">Producción Audiovisual</option>
-                                        <option value="otro" class="text-dark">Asesoría / Otros</option>
+                                        <option value="Google Ads & Meta Ads" class="text-dark">Google Ads & Meta Ads</option>
+                                        <option value="Posicionamiento SEO" class="text-dark">Posicionamiento SEO</option>
+                                        <option value="Diseño Web UX/UI" class="text-dark">Diseño Web UX/UI</option>
+                                        <option value="Gestión de Redes Sociales" class="text-dark">Gestión de Redes Sociales</option>
+                                        <option value="Producción Audiovisual" class="text-dark">Producción Audiovisual</option>
+                                        <option value="Asesoría / Otros" class="text-dark">Asesoría / Otros</option>
                                     </select>
                                 </div>
 
                                 <div class="col-12">
                                     <label for="mensaje" class="form-label text-secondary small fw-semibold">Cuéntanos sobre tu proyecto</label>
-                                    <textarea class="form-control form-cohete bg-transparent text-white" id="mensaje" rows="4" placeholder="Queremos aumentar las ventas de nuestra tienda online..." required></textarea>
+                                    <textarea name="Mensaje" class="form-control form-cohete bg-transparent text-white" id="mensaje" rows="4" placeholder="Queremos aumentar las ventas de nuestra tienda online..." required></textarea>
                                 </div>
 
                                 <div class="col-12 mt-4">
@@ -154,8 +158,7 @@
                                     </button>
                                 </div>
                             </form>
-
-                        </div>
+                            </div>
                     </div>
 
                 </div>
